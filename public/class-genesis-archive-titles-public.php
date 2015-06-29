@@ -140,6 +140,7 @@ class Genesis_Archive_Titles_Public {
 		 * class.
 		 */
 
+
 		//wp_enqueue_script( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'js/genesis-archive-titles-public.js', array( 'jquery' ), $this->version, false );
 
 	}
@@ -151,6 +152,7 @@ class Genesis_Archive_Titles_Public {
 		}
 
 	}
+
 	/**
 	 * Add custom title filter for archives.
 	 *
@@ -200,8 +202,10 @@ class Genesis_Archive_Titles_Public {
 	 * @since    1.0.0
 	 */
 	function remove_archive_title_filter() {
+
 		remove_filter( 'genesis_post_title_text', array( $this, 'get_custom_archive_titles' ) );
 		add_filter( 'genesis_link_post_title', '__return_true' );
+
 	}
 
 }
