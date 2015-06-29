@@ -1,0 +1,22 @@
+{
+  "title": "Genesis Archive Titles",
+  "description": "Auto generate titles for your Genesis archive pages (categories, tags, authors, etc).",
+  "version": "1.0.0",
+  "homepage": "http://wordpress.org/plugins/genesis-archive-titles",
+  "author": {
+    "name": "MIGHTYminnow & Mickey Kay",
+    "email": "mickey@mickeykaycreative.com",
+    "url": "http://mightyminnow.com/plugin-landing-page?utm_source=genesis-archive-titles&utm_medium=plugin-repo&utm_campaign=WordPress%20Plugins"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "load-grunt-tasks": "latest",
+    "grunt-dev-update": "latest",
+    "grunt-prompt": "latest",
+    "grunt-text-replace": "latest",
+    "grunt-wp-readme-to-markdown": "latest",
+    "grunt-wp-i18n": "latest",
+    "grunt-contrib-copy": "^0.7.0"
+  },
+  "keywords": []
+}
